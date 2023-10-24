@@ -2,6 +2,7 @@
 
 This is a Python script for deobfuscating malware batch files by replacing variables with their corresponding values.
 
+This is not a static tool, this tool requires you to run the obfuscated code and then export the "set" list from cmd.exe,
 add the following code to the end of the obfuscated batch file sample:
 
 ```
