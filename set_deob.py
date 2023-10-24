@@ -1,3 +1,7 @@
+#  _  _  +     _|  _   _  |_
+# _) (/_ | -- (_| (/_ (_) |_) v.0.0.1
+# 
+
 import os
 import re
 import sys
