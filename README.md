@@ -1,4 +1,4 @@
-# Malware Deobfuscation Tool
+# Batch Malware Set-Deobfuscation Tool
 
 This is a Python script for deobfuscating malware batch files by replacing variables with their corresponding values.
 
