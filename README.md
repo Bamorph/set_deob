@@ -9,27 +9,31 @@ add the following code to the end of the obfuscated batch file sample:
 set > set_list.txt
 ```
 
+## Prerequisites
+
+Before using this deobfuscation method, ensure you have the following prerequisites:
+
+- Python 3.x
+- A virtual machine (VM) or sandbox environment for safely executing obfuscated batch files
+- A batch file to deobfuscate
+- A text file containing a list of variable assignments (referred to as the "set" file)
 
 ## Usage
 
-1. **Clone the Repository:**
+1. **Clone this repository to your local machine.**
 
    ```bash
    git clone https://github.com/Bamorph/set_deob.git
    ```
 
-2. **Navigate to the Repository:**
+2. **Prepare the "set" file:**
+   - In the controlled environment (VM or sandbox), execute the obfuscated batch file.
+   - Use the "set" command in the command prompt to list the current environment variables.
+   - Save the list of variables and their values to a text file. This file will be used as the "set" file in the deobfuscation process.
 
+3. **Run the deobfuscation script:**
    ```bash
-   cd set_deob
-   ```
-
-3. **Run the Deobfuscation Script:**
-
-   Replace `<set_file>` and `<obfuscated_file>` with the paths to your "set" list file and obfuscated batch script file, respectively.
-
-   ```bash
-   python set_deob.py <set_file> <obfuscated_file>
+   python deobfuscate.py <set_file> <obfuscated_file>
    ```
 
 4. **Deobfuscated Output:**
