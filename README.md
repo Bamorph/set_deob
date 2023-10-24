@@ -20,7 +20,7 @@ set > set_list.txt
 2. **Navigate to the Repository:**
 
    ```bash
-   cd malware-deobfuscation
+   cd set_deob
    ```
 
 3. **Run the Deobfuscation Script:**
@@ -28,7 +28,7 @@ set > set_list.txt
    Replace `<set_file>` and `<obfuscated_file>` with the paths to your "set" list file and obfuscated batch script file, respectively.
 
    ```bash
-   python deobfuscate.py <set_file> <obfuscated_file>
+   python set_deob.py <set_file> <obfuscated_file>
    ```
 
 4. **Deobfuscated Output:**
