@@ -14,7 +14,7 @@ set > set_list.txt
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/malware-deobfuscation.git
+   git clone https://github.com/Bamorph/set_deob.git
    ```
 
 2. **Navigate to the Repository:**
