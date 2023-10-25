@@ -35,7 +35,7 @@ Before using this deobfuscation method, ensure you have the following prerequisi
 
 3. **Run the deobfuscation script:**
    ```bash
-   python deobfuscate.py <set_file> <obfuscated_file>
+   python set_deob.py <set_file> <obfuscated_file>
    ```
 
 4. **Deobfuscated Output:**
